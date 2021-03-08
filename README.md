@@ -16,7 +16,7 @@ Taking this into account, some important variables for the current system could 
 - The number of new people who passed away due to Covid-19 on a certain day
 
 These seem the most important variables for now, and it seems appropriate to keep the amount of variables low at the start, since this will make it easier to test the system. However, other variables can certainly be implemented in the future, like:
-- The amount of new vaccinations given to people on a certain
+- The amount of new vaccinations given to people on a certain day
 - The number of new people who left the hospital/IC on a certain day
 - The total/cumulative amount for all variables so far
 - Numbers that don't match trends (so-called outliers) on a certain day
