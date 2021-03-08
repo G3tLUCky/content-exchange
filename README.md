@@ -9,7 +9,9 @@ Therefore, the first step is to collect (the appropriate amount of) data on whic
 Taking this into account, some important variables for the current system could be:
 - The number of new Covid-19 infections on a certain day
 - The number of new hospital admissions on a certain day, including:
+          
           - Admissions in the Intensive Care
+          
           - Admissions in regular clinics
 - The number of new people who passed away due to Covid-19 on a certain day
 
