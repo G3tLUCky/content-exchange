@@ -4,6 +4,7 @@ This is a readme-file for the Master Thesis: The Content Exchange (under the sup
 This project tries to follow the same structure as a NLG which has been created by Chris van der Lee in order to generate soccer reports with a human tone of voice. Therefore, the first step is to collect (the appropriate amount of) data on which the NLG can be tested. However, Munzert, Rubba, Meißner, and Nyhuis (2015) also suggest to define the variables first before deciding where to look for data.
 
 Taking this into account, some important variables for the current system are: 
+
 -The daily and total number of Covid-tests 
 -The daily and total number of Covid-infections 
 -The daily and total number of hospital admissions, including admissions on the Intensive Care and admissions in regular clinics. 
