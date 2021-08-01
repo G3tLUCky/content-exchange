@@ -6,9 +6,13 @@ This project tries to follow the same structure as a NLG which has been created 
 Taking this into account, some important variables for the current system are: 
 
 -The daily and total number of Covid-tests 
+
 -The daily and total number of Covid-infections 
+
 -The daily and total number of hospital admissions, including admissions on the Intensive Care and admissions in regular clinics. 
+
 -The daily and total number of new people who passed away due to Covid-19 
+
 -The daily and total number of vaccines
 
 Data related to these variables were offered in data files on websites from the RIVM, NICE, and LPCS. These are all Dutch institutions that register important information about the Covid-virus in the Netherlands and publicly share this information online. All collected data can be found under databases in all_data.xlsx.
