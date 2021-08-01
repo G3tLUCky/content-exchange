@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Covid>
+	<Datum></Datum>
+	<Testen>
+		<Aantal></Aantal>
+		<Totaal></Totaal>
+		<Vergelijking>
+			<Gisteren percentage=""></Gisteren>
+			<Week percentage=""></Week>
+		</Vergelijking>
+		<!--- DE GEGEVENS PER GEMEENTE ZIJN VOOR DE TESTEN WEGGELATEN, AANGEZIEN DEZE DATA NIET BESCHIKBAAR ZIJN BIJ HET RIVM --->
+		<Age/>
+		
+		<Besmettingen>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+			<Vergelijking>
+				<Gisteren percentage=""></Gisteren>
+				<Week percentage=""></Week>
+			</Vergelijking>
+			<GemeenteMax Provincie="">
+				<Gemeente></Gemeente>
+				<Aantal></Aantal>
+				<Totaal></Totaal>
+			</GemeenteMax>
+			<GemeenteMin Provincie="">
+				<Gemeente></Gemeente>
+				<Aantal></Aantal>
+				<Totaal></Totaal>
+			</GemeenteMin>
+			<!--- PROBLEEM: ER ZIJN SOMS MEERDERE GEMEENTES WAARVAN HET MINIMUM 0 IS, MAAR DE FORMULE IN EXCEL KIEST OP DIT MOMENT VOOR DE EERSTE GEMEENTE MET 0 IN DE KOLOM.
+			DIT PROBLEEM GEBEURT OOK BIJ DE ANDERE VARIABELEN WAARBIJ GemeenteMin WORDT TOEGEPAST. WELLICHT DAT HET DAAROM HANDIGER IS OM ENKEL DE GEMEENTE MET DE MEESTE
+			BESMETTINGEN, OPNAMES, ETC. TE VERMELDEN.--->
+			<Age/>
+		</Besmettingen>
+	</Testen>
+	
+	<Opnames>
+		<Aantal></Aantal>
+		<Totaal></Totaal>
+		<Vergelijking>
+				<Gisteren percentage=""></Gisteren>
+				<Week percentage=""></Week>
+		</Vergelijking>
+		<GemeenteMax Provincie="">
+			<Gemeente></Gemeente>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+		</GemeenteMax>
+		<GemeenteMin Provincie="">
+			<Gemeente></Gemeente>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+		</GemeenteMin>
+		<Age/>
+		
+		<Kliniek>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+			<Vergelijking>
+				<Gisteren percentage=""></Gisteren>
+				<Week percentage=""></Week>
+			</Vergelijking>
+		<!--- DE GEGEVENS PER GEMEENTE ZIJN VOOR DE KLINIEKEN WEGGELATEN, AANGEZIEN DEZE DATA NIET BESCHIKBAAR ZIJN BIJ HET RIVM --->
+			<Age/>
+		</Kliniek>
+		
+		<IC>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+			<Vergelijking>
+				<Gisteren percentage=""></Gisteren>
+				<Week percentage=""></Week>
+			</Vergelijking>
+		<!--- DE GEGEVENS PER GEMEENTE ZIJN VOOR DE IC'S WEGGELATEN, AANGEZIEN DEZE DATA NIET BESCHIKBAAR ZIJN BIJ HET RIVM --->
+			<Age/>
+		</IC>
+		
+		<Ontslagen>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+			<Vergelijking>
+				<Gisteren percentage=""></Gisteren>
+				<Week percentage=""></Week>
+			</Vergelijking>
+			<GemeenteMax Provincie="">
+				<Gemeente></Gemeente>
+				<Aantal></Aantal>
+				<Totaal></Totaal>
+			</GemeenteMax>
+			<GemeenteMin Provincie="">
+				<Gemeente></Gemeente>
+				<Aantal></Aantal>
+				<Totaal></Totaal>
+			</GemeenteMin>
+			<Age/>
+		</Ontslagen>
+	</Opnames>
+	
+	<Doden>
+		<Aantal></Aantal>
+		<Totaal></Totaal>
+		<Vergelijking>
+			<Gisteren percentage=""></Gisteren>
+			<Week percentage=""></Week>
+		</Vergelijking>
+		<GemeenteMax Provincie="">
+			<Gemeente></Gemeente>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+		</GemeenteMax>
+		<GemeenteMin Provincie="">
+			<Gemeente></Gemeente>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+		</GemeenteMin>
+		<Age/>
+	</Doden>
+	
+	<Vaccinaties>
+		<Aantal></Aantal>
+		<Totaal></Totaal>
+		<Vergelijking>
+			<Gisteren percentage=""></Gisteren>
+			<Week percentage=""></Week>
+		</Vergelijking>
+		<GemeenteMax Provincie="">
+			<Gemeente></Gemeente>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+		</GemeenteMax>
+		<GemeenteMin Provincie="">
+			<Gemeente></Gemeente>
+			<Aantal></Aantal>
+			<Totaal></Totaal>
+		</GemeenteMin>
+		<Age/>
+	</Vaccinaties>
+	
+	<Rgetal></Rgetal>
+</Covid>
