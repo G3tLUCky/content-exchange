@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-01-05</Datum>
+   <Testen>
+      <Aantal>55385</Aantal>
+      <Totaal>6483846</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="1.4%">747</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>6375</Aantal>
+         <Totaal>832808</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="-3.9%">-258</Gisteren>
+            <Week/>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>'s-Gravenhage</Gemeente>
+            <Aantal>206</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Zeeland</Provincie>
+            <Aantal>91</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>284</Aantal>
+      <TotaalMomenteel>2890</TotaalMomenteel>
+      <TotaalAlgemeen>43029</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-13.4%">-44</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>13</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Flevoland</Provincie>
+         <Aantal>4</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>231</Aantal>
+         <TotaalMomenteel>2159</TotaalMomenteel>
+         <TotaalAlgemeen>36215</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-14.1%">-38</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>53</Aantal>
+         <TotaalMomenteel>731</TotaalMomenteel>
+         <TotaalAlgemeen>6814</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-10.2%">-6</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>152</Aantal>
+      <Totaal>11800</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="133.8%">87</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>6</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Zeeland</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>-</Aantal>
+      <Totaal/>
+      <Vergelijking>
+         <Gisteren/>
+         <Week/>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

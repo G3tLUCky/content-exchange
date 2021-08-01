@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-02-20</Datum>
+   <Testen>
+      <Aantal>35565</Aantal>
+      <Totaal>8084816</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-10.6%">-4230</Gisteren>
+         <Week percentage="-24.6%">-7012</Week>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>4543</Aantal>
+         <Totaal>1051456</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="-2.9%">-138</Gisteren>
+            <Week percentage="-50.8%">-1531</Week>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>'s-Gravenhage</Gemeente>
+            <Aantal>127</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Flevoland</Provincie>
+            <Aantal>86</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>142</Aantal>
+      <TotaalMomenteel>1858</TotaalMomenteel>
+      <TotaalAlgemeen>51881</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-17.0%">-29</Gisteren>
+         <Week percentage="4.7%">7</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Zuid-Holland">
+         <Gemeente>'s-Gravenhage</Gemeente>
+         <Aantal>7</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Flevoland</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>103</Aantal>
+         <TotaalMomenteel>1336</TotaalMomenteel>
+         <TotaalAlgemeen>43549</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-26.4%">-37</Gisteren>
+            <Week percentage="15.6%">19</Week>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>39</Aantal>
+         <TotaalMomenteel>522</TotaalMomenteel>
+         <TotaalAlgemeen>8332</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="25.8%">8</Gisteren>
+            <Week percentage="-50.0%">-13</Week>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>62</Aantal>
+      <Totaal>15196</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="24.0%">12</Gisteren>
+         <Week percentage="-17.0%">-9</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Limburg">
+         <Gemeente>Brunssum</Gemeente>
+         <Aantal>4</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Drenthe</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>38130</Aantal>
+      <Totaal>1004821</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-2.4%">-931</Gisteren>
+         <Week percentage="-38.7%">-10636</Week>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

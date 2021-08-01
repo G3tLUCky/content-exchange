@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-01-06</Datum>
+   <Testen>
+      <Aantal>54503</Aantal>
+      <Totaal>6538349</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-1.6%">-882</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>7092</Aantal>
+         <Totaal>839900</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="11.2%">717</Gisteren>
+            <Week/>
+         </Vergelijking>
+         <GemeenteMax provincie="Noord-Holland">
+            <Gemeente>Amsterdam</Gemeente>
+            <Aantal>220</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Zeeland</Provincie>
+            <Aantal>113</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>252</Aantal>
+      <TotaalMomenteel>2835</TotaalMomenteel>
+      <TotaalAlgemeen>43281</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-11.3%">-32</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Zuid-Holland">
+         <Gemeente>Rotterdam</Gemeente>
+         <Aantal>10</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Groningen</Provincie>
+         <Aantal>4</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>206</Aantal>
+         <TotaalMomenteel>2131</TotaalMomenteel>
+         <TotaalAlgemeen>36421</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-10.8%">-25</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>46</Aantal>
+         <TotaalMomenteel>704</TotaalMomenteel>
+         <TotaalAlgemeen>6860</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-13.2%">-7</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>175</Aantal>
+      <Totaal>11975</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="15.1%">23</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Limburg">
+         <Gemeente>Heerlen</Gemeente>
+         <Aantal>12</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Zeeland</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>3862</Aantal>
+      <Totaal>3862</Totaal>
+      <Vergelijking>
+         <Gisteren/>
+         <Week/>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

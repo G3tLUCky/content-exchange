@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-02-03</Datum>
+   <Testen>
+      <Aantal>34550</Aantal>
+      <Totaal>7567676</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="8.6%">2729</Gisteren>
+         <Week percentage="-41.0%">-10038</Week>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>4027</Aantal>
+         <Totaal>988643</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="13.3%">472</Gisteren>
+            <Week percentage="-13.1%">-465</Week>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>Rotterdam</Gemeente>
+            <Aantal>129</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Flevoland</Provincie>
+            <Aantal>83</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>179</Aantal>
+      <TotaalMomenteel>2214</TotaalMomenteel>
+      <TotaalAlgemeen>48950</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-2.2%">-4</Gisteren>
+         <Week percentage="-11.2%">-18</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>11</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Flevoland</Provincie>
+         <Aantal>2</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>149</Aantal>
+         <TotaalMomenteel>1601</TotaalMomenteel>
+         <TotaalAlgemeen>41102</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-3.9%">-6</Gisteren>
+            <Week percentage="-11.2%">-15</Week>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>30</Aantal>
+         <TotaalMomenteel>613</TotaalMomenteel>
+         <TotaalAlgemeen>7848</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="7.1%">2</Gisteren>
+            <Week percentage="-7.1%">-2</Week>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>62</Aantal>
+      <Totaal>14155</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-25.3%">-21</Gisteren>
+         <Week percentage="-19.2%">-10</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Fryslân">
+         <Gemeente>Achtkarspelen</Gemeente>
+         <Aantal>4</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Groningen</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>32820</Aantal>
+      <Totaal>454534</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-5.2%">-1815</Gisteren>
+         <Week percentage="-24.3%">-6423</Week>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

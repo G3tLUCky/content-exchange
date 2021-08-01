@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-02-22</Datum>
+   <Testen>
+      <Aantal>48298</Aantal>
+      <Totaal>8165008</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="51.4%">16404</Gisteren>
+         <Week percentage="-46.0%">-15211</Week>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>4182</Aantal>
+         <Totaal>1060310</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="-10.5%">-490</Gisteren>
+            <Week percentage="-29.0%">-939</Week>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>Rotterdam</Gemeente>
+            <Aantal>155</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Flevoland</Provincie>
+            <Aantal>65</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>222</Aantal>
+      <TotaalMomenteel>1908</TotaalMomenteel>
+      <TotaalAlgemeen>52235</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="68.2%">90</Gisteren>
+         <Week percentage="-42.3%">-66</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>11</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Drenthe</Provincie>
+         <Aantal>3</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>190</Aantal>
+         <TotaalMomenteel>1347</TotaalMomenteel>
+         <TotaalAlgemeen>43835</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="97.9%">94</Gisteren>
+            <Week percentage="-50.8%">-64</Week>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>32</Aantal>
+         <TotaalMomenteel>561</TotaalMomenteel>
+         <TotaalAlgemeen>8400</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-11.1%">-4</Gisteren>
+            <Week percentage="-10.3%">-3</Week>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>32</Aantal>
+      <Totaal>15245</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="88.2%">15</Gisteren>
+         <Week percentage="42.9%">24</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Limburg">
+         <Gemeente>Landgraaf</Gemeente>
+         <Aantal>3</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Drenthe</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>37857</Aantal>
+      <Totaal>1080803</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-0.7%">-268</Gisteren>
+         <Week percentage="-24.6%">-7472</Week>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

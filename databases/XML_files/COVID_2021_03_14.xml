@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-03-14</Datum>
+   <Testen>
+      <Aantal>59501</Aantal>
+      <Totaal>9256492</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-0.6%">-377</Gisteren>
+         <Week percentage="-7.1%">-3955</Week>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>5958</Aantal>
+         <Totaal>1156564</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="-6.6%">-424</Gisteren>
+            <Week percentage="-42.7%">-1782</Week>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>Rotterdam</Gemeente>
+            <Aantal>255</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Flevoland</Provincie>
+            <Aantal>109</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>171</Aantal>
+      <TotaalMomenteel>1922</TotaalMomenteel>
+      <TotaalAlgemeen>55815</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-2.3%">-4</Gisteren>
+         <Week percentage="-1.8%">-3</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>14</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Fryslân</Provincie>
+         <Aantal>2</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>128</Aantal>
+         <TotaalMomenteel>1368</TotaalMomenteel>
+         <TotaalAlgemeen>46663</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-7.9%">-11</Gisteren>
+            <Week percentage="4.5%">6</Week>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>43</Aantal>
+         <TotaalMomenteel>554</TotaalMomenteel>
+         <TotaalAlgemeen>9152</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="19.4%">7</Gisteren>
+            <Week percentage="-30.3%">-10</Week>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>24</Aantal>
+      <Totaal>16064</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="9.1%">2</Gisteren>
+         <Week percentage="22.6%">7</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Brabant">
+         <Gemeente>Valkenswaard</Gemeente>
+         <Aantal>2</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Groningen</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>39728</Aantal>
+      <Totaal>1971062</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-0.1%">-23</Gisteren>
+         <Week percentage="-15.2%">-5244</Week>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

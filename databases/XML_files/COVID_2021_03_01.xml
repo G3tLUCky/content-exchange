@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-03-01</Datum>
+   <Testen>
+      <Aantal>56417</Aantal>
+      <Totaal>8490338</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="50.8%">19004</Gisteren>
+         <Week percentage="-41.1%">-16446</Week>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>3753</Aantal>
+         <Totaal>1091906</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="-19.1%">-886</Gisteren>
+            <Week percentage="4.1%">159</Week>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>Rotterdam</Gemeente>
+            <Aantal>170</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Zeeland</Provincie>
+            <Aantal>60</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>240</Aantal>
+      <TotaalMomenteel>1911</TotaalMomenteel>
+      <TotaalAlgemeen>53467</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="54.8%">85</Gisteren>
+         <Week percentage="-58.9%">-89</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>13</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Flevoland</Provincie>
+         <Aantal>1</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>188</Aantal>
+         <TotaalMomenteel>1375</TotaalMomenteel>
+         <TotaalAlgemeen>44817</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="67.9%">76</Gisteren>
+            <Week percentage="-50.4%">-63</Week>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>52</Aantal>
+         <TotaalMomenteel>536</TotaalMomenteel>
+         <TotaalAlgemeen>8650</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="20.9%">9</Gisteren>
+            <Week percentage="-92.6%">-25</Week>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>20</Aantal>
+      <Totaal>15579</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="0.0%">0</Gisteren>
+         <Week percentage="57.4%">27</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Drenthe">
+         <Gemeente>Emmen</Gemeente>
+         <Aantal>1</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Groningen</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>45333</Aantal>
+      <Totaal>1434055</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-7.7%">-3776</Gisteren>
+         <Week percentage="-7.0%">-2952</Week>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

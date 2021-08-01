@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-02-05</Datum>
+   <Testen>
+      <Aantal>32418</Aantal>
+      <Totaal>7634214</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-5.0%">-1702</Gisteren>
+         <Week percentage="-32.2%">-7905</Week>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>4324</Aantal>
+         <Totaal>997173</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="2.8%">118</Gisteren>
+            <Week percentage="-31.1%">-1026</Week>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>Rotterdam</Gemeente>
+            <Aantal>187</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Flevoland</Provincie>
+            <Aantal>61</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>184</Aantal>
+      <TotaalMomenteel>2052</TotaalMomenteel>
+      <TotaalAlgemeen>49323</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-2.6%">-5</Gisteren>
+         <Week percentage="-17.2%">-27</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Zuid-Holland">
+         <Gemeente>Rotterdam</Gemeente>
+         <Aantal>10</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Overijssel</Provincie>
+         <Aantal>1</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>165</Aantal>
+         <TotaalMomenteel>1479</TotaalMomenteel>
+         <TotaalAlgemeen>41431</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="0.6%">1</Gisteren>
+            <Week percentage="-26.0%">-34</Week>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>19</Aantal>
+         <TotaalMomenteel>573</TotaalMomenteel>
+         <TotaalAlgemeen>7892</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-24.0%">-6</Gisteren>
+            <Week percentage="26.9%">7</Week>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>60</Aantal>
+      <Totaal>14282</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-10.4%">-7</Gisteren>
+         <Week percentage="-17.6%">-9</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Gelderland">
+         <Gemeente>Voorst</Gemeente>
+         <Aantal>6</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Groningen</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>33287</Aantal>
+      <Totaal>522426</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-3.8%">-1318</Gisteren>
+         <Week percentage="-19.2%">-5355</Week>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

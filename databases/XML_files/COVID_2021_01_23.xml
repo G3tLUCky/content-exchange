@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-01-23</Datum>
+   <Testen>
+      <Aantal>29032</Aantal>
+      <Totaal>7234777</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-21.0%">-7722</Gisteren>
+         <Week percentage="17.4%">6104</Week>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>5450</Aantal>
+         <Totaal>943193</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="-5.3%">-302</Gisteren>
+            <Week percentage="-21.7%">-972</Week>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>'s-Gravenhage</Gemeente>
+            <Aantal>147</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Flevoland</Provincie>
+            <Aantal>99</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>172</Aantal>
+      <TotaalMomenteel>2306</TotaalMomenteel>
+      <TotaalAlgemeen>46894</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-18.1%">-38</Gisteren>
+         <Week percentage="1.1%">2</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>12</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Flevoland</Provincie>
+         <Aantal>1</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>138</Aantal>
+         <TotaalMomenteel>1633</TotaalMomenteel>
+         <TotaalAlgemeen>39414</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-20.7%">-36</Gisteren>
+            <Week percentage="4.2%">6</Week>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>34</Aantal>
+         <TotaalMomenteel>673</TotaalMomenteel>
+         <TotaalAlgemeen>7480</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-5.6%">-2</Gisteren>
+            <Week percentage="-13.3%">-4</Week>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>88</Aantal>
+      <Totaal>13492</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-1.1%">-1</Gisteren>
+         <Week percentage="-27.5%">-19</Week>
+      </Vergelijking>
+      <GemeenteMax provincie="Limburg">
+         <Gemeente>Kerkrade</Gemeente>
+         <Aantal>7</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Zeeland</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>10823</Aantal>
+      <Totaal>155923</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-24.2%">-3463</Gisteren>
+         <Week percentage="-19.0%">-1726</Week>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

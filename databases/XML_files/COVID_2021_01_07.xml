@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-01-07</Datum>
+   <Testen>
+      <Aantal>49737</Aantal>
+      <Totaal>6588086</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-8.7%">-4766</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>9680</Aantal>
+         <Totaal>849580</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="36.5%">2588</Gisteren>
+            <Week/>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>Rotterdam</Gemeente>
+            <Aantal>326</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Zeeland</Provincie>
+            <Aantal>193</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>241</Aantal>
+      <TotaalMomenteel>2764</TotaalMomenteel>
+      <TotaalAlgemeen>43522</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="-4.4%">-11</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Holland">
+         <Gemeente>Amsterdam</Gemeente>
+         <Aantal>15</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Zeeland</Provincie>
+         <Aantal>5</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>204</Aantal>
+         <TotaalMomenteel>2052</TotaalMomenteel>
+         <TotaalAlgemeen>36625</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-1.0%">-2</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>37</Aantal>
+         <TotaalMomenteel>712</TotaalMomenteel>
+         <TotaalAlgemeen>6897</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-19.6%">-9</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>81</Aantal>
+      <Totaal>12056</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-53.7%">-94</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Noord-Brabant">
+         <Gemeente>Eindhoven</Gemeente>
+         <Aantal>6</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Groningen</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>6361</Aantal>
+      <Totaal>10223</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="64.7%">2499</Gisteren>
+         <Week/>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>

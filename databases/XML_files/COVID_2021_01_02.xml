@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<Covid>
+   <Datum>2021-01-02</Datum>
+   <Testen>
+      <Aantal>47313</Aantal>
+      <Totaal>6334943</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="41.9%">13981</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <Besmettingen>
+         <Aantal>8589</Aantal>
+         <Totaal>812403</Totaal>
+         <Vergelijking>
+            <Gisteren percentage="5.1%">419</Gisteren>
+            <Week/>
+         </Vergelijking>
+         <GemeenteMax provincie="Zuid-Holland">
+            <Gemeente>Rotterdam</Gemeente>
+            <Aantal>210</Aantal>
+         </GemeenteMax>
+         <ProvincieMin>
+            <Provincie>Zeeland</Provincie>
+            <Aantal>167</Aantal>
+         </ProvincieMin>
+      </Besmettingen>
+   </Testen>
+   <Opnames>
+      <Aantal>239</Aantal>
+      <TotaalMomenteel>2703</TotaalMomenteel>
+      <TotaalAlgemeen>42179</TotaalAlgemeen>
+      <Vergelijking>
+         <Gisteren percentage="3.0%">7</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Zuid-Holland">
+         <Gemeente>Rotterdam</Gemeente>
+         <Aantal>6</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Flevoland</Provincie>
+         <Aantal>2</Aantal>
+      </ProvincieMin>
+      <Kliniek>
+         <Aantal>200</Aantal>
+         <TotaalMomenteel>2005</TotaalMomenteel>
+         <TotaalAlgemeen>35521</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="4.2%">8</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </Kliniek>
+      <IC>
+         <Aantal>39</Aantal>
+         <TotaalMomenteel>698</TotaalMomenteel>
+         <TotaalAlgemeen>6658</TotaalAlgemeen>
+         <Vergelijking>
+            <Gisteren percentage="-2.5%">-1</Gisteren>
+            <Week/>
+         </Vergelijking>
+      </IC>
+   </Opnames>
+   <Doden>
+      <Aantal>38</Aantal>
+      <Totaal>11536</Totaal>
+      <Vergelijking>
+         <Gisteren percentage="-61.2%">-60</Gisteren>
+         <Week/>
+      </Vergelijking>
+      <GemeenteMax provincie="Gelderland">
+         <Gemeente>Apeldoorn</Gemeente>
+         <Aantal>3</Aantal>
+      </GemeenteMax>
+      <ProvincieMin>
+         <Provincie>Flevoland</Provincie>
+         <Aantal>0</Aantal>
+      </ProvincieMin>
+   </Doden>
+   <Vaccinaties>
+      <Aantal>-</Aantal>
+      <Totaal/>
+      <Vergelijking>
+         <Gisteren/>
+         <Week/>
+      </Vergelijking>
+   </Vaccinaties>
+</Covid>
