@@ -3,7 +3,12 @@ This is a readme-file for the Master Thesis: The Content Exchange (under the sup
 
 This project tries to follow the same structure as a NLG which has been created by Chris van der Lee in order to generate soccer reports with a human tone of voice. Therefore, the first step is to collect (the appropriate amount of) data on which the NLG can be tested. However, Munzert, Rubba, Meißner, and Nyhuis (2015) also suggest to define the variables first before deciding where to look for data.
 
-Taking this into account, some important variables for the current system are: -The daily and total number of Covid-tests -The daily and total number of Covid-infections -The daily and total number of hospital admissions, including admissions on the Intensive Care and admissions in regular clinics. -The daily and total number of new people who passed away due to Covid-19 -The daily and total number of vaccines
+Taking this into account, some important variables for the current system are: 
+-The daily and total number of Covid-tests 
+-The daily and total number of Covid-infections 
+-The daily and total number of hospital admissions, including admissions on the Intensive Care and admissions in regular clinics. 
+-The daily and total number of new people who passed away due to Covid-19 
+-The daily and total number of vaccines
 
 Data related to these variables were offered in data files on websites from the RIVM, NICE, and LPCS. These are all Dutch institutions that register important information about the Covid-virus in the Netherlands and publicly share this information online. All collected data can be found under databases in all_data.xlsx.
 
@@ -19,7 +24,7 @@ The system itself can be found under 'Modules.' The following modules are includ
 -Template_Selection_Module: This module uses Ruleset_module.py to determine which templates are eligible according to the XML-data and randomly chooses a template from all possible templates.
 -Template_Filler_Module: This module fills the gaps in the chosen templates with the appropriate XML-data.
 -Text_Collection_Module: This module collects all filled out templates (i.e. sentences), and creates a coherent text with them.
--Visual_Display_Module: This module randomly chooses a topic (e.g. infections, vaccines, etc.) and creates a line graph that shows a trend (related to the topic) during the last seven days
+-Visual_Display_Module: This module randomly chooses a topic (e.g. infections, vaccines, etc.) and creates a line graph that shows a trend (related to the topic) during the last seven days.
 -Governing_Module: This module interacts with every module and saves the resulting text and graph to a .txt- and .png-file.
 
 
