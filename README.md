@@ -26,10 +26,15 @@ The 'automatically-generated'-directory shows all texts and visual displays that
 The system itself can be found under 'Modules.' The following modules are included:
 
 -Lookup_module.py: This module loads the XML-data and templates.
+
 -Template_Selection_Module: This module uses Ruleset_module.py to determine which templates are eligible according to the XML-data and randomly chooses a template from all possible templates.
+
 -Template_Filler_Module: This module fills the gaps in the chosen templates with the appropriate XML-data.
+
 -Text_Collection_Module: This module collects all filled out templates (i.e. sentences), and creates a coherent text with them.
+
 -Visual_Display_Module: This module randomly chooses a topic (e.g. infections, vaccines, etc.) and creates a line graph that shows a trend (related to the topic) during the last seven days.
+
 -Governing_Module: This module interacts with every module and saves the resulting text and graph to a .txt- and .png-file.
 
 
