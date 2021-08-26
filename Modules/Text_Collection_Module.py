@@ -48,6 +48,15 @@ def Text_Collection(all_templates):
         
         words = sentence.split(" ")
         for w in words:
+            if w[:-1].isdigit():
+                if w[-1] == ":":
+                    w = "{:,}:".format(int(w[:-1])).replace(",", ".")
+                elif w[-1] == ",":
+                    w = "{:,},".format(int(w[:-1])).replace(",", ".")
+                elif w[-1] == ".":
+                    w = "{:,}.".format(int(w[:-1])).replace(",", ".")
+                else:
+                    w = "{:,}".format(int(w)).replace(",", ".")
             line2 += w + " "
             if len(line2) > 75:
                 text += line2 +"\n"
