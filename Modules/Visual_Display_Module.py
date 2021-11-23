@@ -58,5 +58,4 @@ def Visual_Display(data, data_slice):
     plt.ylabel(all_data[numbers][2])
     plt.xlabel("Datum")
     #plt.show()
-    os.chdir("C:/Users/lucla/Documents/Studie/Tilburg University/Masterscriptie/Output")
     plt.savefig("visual_display.png")
