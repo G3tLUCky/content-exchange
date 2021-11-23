@@ -1,7 +1,7 @@
 from PyPDF2 import PdfFileReader
 import os
 
-pdf_path = os.chdir("C:/Users/lucla/Documents/Studie/Tilburg University/Masterscriptie/databases/Teksten")
+pdf_path = os.getcwd()+ "/texts"
 files = os.listdir(pdf_path)
 pdf_list = []
 for f in files:
