@@ -3,8 +3,6 @@ import os
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as xml_minidom
 
-os.chdir("C:/Users/lucla/Documents/Studie/Tilburg University/Masterscriptie/databases/Cijfers")
-
 df = pd.read_excel("all_data.xlsx")
 row = 0
 tot_testen_number = 6254298
@@ -15,7 +13,9 @@ tot_clin_number = 35129
 tot_ic_number = 6579
 tot_hos_number = tot_clin_number + tot_ic_number
 
-os.chdir("C:/Users/lucla/Documents/Studie/Tilburg University/Masterscriptie/databases/Cijfers/XML_files")
+path = os.getcwd()
+os.chdir(path+ "/XML_files")
+
 for x in df['Date']:
     x = str(x).replace(" 00:00:00", "")
     filename = "COVID_"+x.replace("-","_")+".xml"
