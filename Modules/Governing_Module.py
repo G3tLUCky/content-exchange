@@ -6,12 +6,14 @@ from Template_Filler_Module import Template_Filler
 from Text_Collection_Module import Text_Collection
 from Visual_Display_Module import Visual_Display
 
-current_path = os.getcwd()
-new_path = current_path + "\databases"
+os.chdir("..")
+previous_path = os.getcwd()
+new_path = previous_path + "/databases"
 os.chdir(new_path)
 
 leg, temp = Template_Converter("Templates_complete.xlsx")
-data = Data_Files(path)
+data_path = new_path + "/XML_files"
+data = Data_Files(data_path)
 
 indices = [x for x in range(0, len(data))]
 idx = random.choice(indices)
