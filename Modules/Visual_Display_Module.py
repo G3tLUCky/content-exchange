@@ -59,9 +59,4 @@ def Visual_Display(data, data_slice):
     plt.xlabel("Datum")
     #plt.show()
     
-    os.chdir("..")
-    previous_path = os.getcwd()
-    new_path = previous_path + "/databases"
-    os.chdir(new_path)
-    
     plt.savefig("visual_display.png")
