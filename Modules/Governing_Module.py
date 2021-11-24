@@ -23,6 +23,7 @@ templates = Template_Filler(gapped_templates, data, idx)
 text = Text_Collection(templates)
 Visual_Display(data, data[idx-6:idx+1])
 
+os.chdir("..")
 file = open("Covid_Text.txt", 'w', encoding = "UTF-8")
 file.write(text)
 file.close()
